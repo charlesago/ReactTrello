@@ -1,0 +1,62 @@
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 10vh;
+    background-color: #252525;
+    color: white;
+}
+
+.listCard{
+    min-height: 20vw;
+    height: fit-content;
+    width: 20vw;
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.topCard{
+    display: flex;
+    position: relative;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topButton{
+    margin-right: 10vh;
+    margin-left: 5vh;
+    padding: 15px;
+}
+
+.cardCreation{
+    width: 80%;
+}
+
+
+.newCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardLink{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.cardLink:hover{
+    text-decoration: underline;
+    color: black;
+}

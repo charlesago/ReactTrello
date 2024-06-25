@@ -1,0 +1,30 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn-danger {
+    margin-top: 1rem;
+}
+
+.alert {
+    margin-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+}

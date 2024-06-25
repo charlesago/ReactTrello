@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #0d6efd; /* Couleur primaire de la navbar */
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    font-size: 1.1rem;
+}
+
+.nav-link.active {
+    color: #ffc107 !important; /* Couleur pour le lien actif */
+    font-weight: bold;
+}
+
+.nav-item:hover .nav-link {
+    color: #ffc107 !important; /* Couleur au survol */
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28%255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+    background-color: #0d6efd;
+}
+
+.dropdown-item {
+    color: #f8f9fa !important;
+}
+
+.dropdown-item:hover {
+    background-color: #0d6efd;
+    color: #ffc107 !important; /* Couleur au survol des éléments du dropdown */
+}
